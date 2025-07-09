@@ -74,7 +74,7 @@ fun selectFile() {
 After opening the file, you can search for a row using its unique `PNO`. This is ideal for when you scan a QR code.
 
 ```kotlin
-val pnoFromQrCode = "P12345"
+val pnoFromQrCode = "123.01"
 val palmData: Map<String, String>? = excelPro.findRowByPno(pnoFromQrCode)
 
 if (palmData != null) {
